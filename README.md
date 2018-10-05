@@ -2,7 +2,7 @@
 Compare capacitive and resistive soil sensors.
 sketchs for Wemos D1R1 (ESP8266)
 
-Data uploaded to Thingspeak
+Data uploaded to Thingspeak :
 [view graphs](https://thingspeak.com/channels/564209)
 
 From my own experience, i have found that capacitive soil sensors are not adapted to measure soil moisture. Resistive sensors corrode, that's a fact, but if you measure only every hour, or every day, putting current only a few ms, your sensor can last very long. Capactive sensors doesn't corrode, but when they are inserted in the soil, they measure moisture at that time, and stay with that value till you put them out of the soil and insert them again. I tried 3 different capactive soil sensors, and it was each time the same issue.
